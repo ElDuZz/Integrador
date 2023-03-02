@@ -1,8 +1,14 @@
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
-    <a href="index.html" class="navbar-brand ms-lg-5">
+    <a href="index.php" class="navbar-brand">
+        
+       <img src="img/Noto.png" height="100xp" alt="">
+    </a>
+    <a href="index.php" class="navbar-brand">
+        
         <h1 class="display-5 m-0 text-success">No<span class="text-info">to</span></h1>
     </a>
+    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
