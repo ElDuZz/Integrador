@@ -40,7 +40,7 @@
 
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
+    <div class="container-fluid p-0 mb-5" id="inicio">
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -97,19 +97,19 @@
             <div class="row gx-5">
                 <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.3s" src="img/ventilacion.png" style="object-fit: cover;">
+                        <img class="position-absolute w-90 h-90 rounded wow zoomIn" data-wow-delay="0.3s" src="img/casa_ventilacion.png"  style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="mb-4">
-                        <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Sobre nosotros</h5>
+                        <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">Sobre nosotros</h5>
                         <h1 class="display-5 mb-0">Nosotros ofrecemos nuestro servicio y sistema</h1>
                     </div>
                     <!-- <h4 class="text-body fst-italic mb-4">Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore</h4> -->
-                    <p class="mb-4">Te ofrecemos monitorear las temperaturas para que tu como usuario tengas un ambiente en tu cuarto agradable basado en tu gusto</p>
+                    <p class="mb-4 text-dark">Te ofrecemos monitorear las temperaturas para que tu como usuario tengas un ambiente en tu cuarto agradable basado en tu gusto</p>
                     <div class="row">
                         <div class="col wow zoomIn" data-wow-delay="0.6s">
-                            <div class="bg-primary d-flex flex-column justify-content-center text-center border-bottom border-5 border-secondary rounded p-3" style="height: 200px;">
+                            <div class="bg-dark d-flex flex-column justify-content-center text-center border-bottom border-5 border-success rounded p-3" style="height: 200px;">
                                 <i class="fa fa-star fa-4x text-white mb-4"></i>
                                 <h4 class="text-white mb-0">Calidad garantizada</h4>
                             </div>
@@ -132,65 +132,61 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-                <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Servicios</h5>
+                <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">Servicios</h5>
                 <h1 class="display-5 mb-0">Nuestros excelentes servicios de control de temperaturas</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+                    <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
                             <img src="img/aire-fresco.png" height="100px" alt="">
                             <h3 class="mb-3">Exterior</h3>
-                            <p>Control en aplicacion de la temperatura exterior</p>
+                            <p class="text-dark">Control en aplicacion de la temperatura exterior</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+                    <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
                             <img src="img/wind.png" height="100px" alt="">
                             <h3 class="mb-3">Interior</h3>
-                            <p>Control en aplicacion de la temperatura interior</p>
+                            <p class="text-dark">Control en aplicacion de la temperatura interior</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-                    <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+                    <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
                             <img src="img/air-conditioning.png" height="100px" alt="">
                             <h3 class="mb-3">Ventiladores</h3>
-                            <p>Control total en el apagado y encendido de ventiladores para uso de refrigeraciòn</p>
+                            <p class="text-dark">Control total en el apagado y encendido de ventiladores para uso de refrigeraciòn</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+                    <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
                             <img src="img/ventilacion (1).png" height="100px" alt="">
                             <h3 class="mb-3">Ventilaciòn</h3>
-                            <p>Control en el uso de las ventilaciones que ayuden con corrientes de aire para la refrigeraciòn</p>
+                            <p class="text-dark">Control en el uso de las ventilaciones que ayuden con corrientes de aire para la refrigeraciòn</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+                    <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
-                            <i class="flaticon-security-system d-block display-1 fw-normal text-secondary mb-3"></i>
-                            <h5 class="text-primary mb-0">CCTV</h5>
-                            <h3 class="mb-3">Monitoring</h3>
-                            <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
-                            <a href="">Read More<i class="bi bi-arrow-right ms-2"></i></a>
+                            <img src="img/calentador.png" height="100px" alt="">
+                            <h3 class="mb-3">Calefacción</h3>
+                            <p class="text-dark">Te cuidamos cuando utilizas tus calentadores </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-                    <div class="service-item bg-light border-bottom border-5 border-primary rounded">
+                    <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
-                            <i class="flaticon-recorder d-block display-1 fw-normal text-secondary mb-3"></i>
-                            <h5 class="text-primary mb-0">CCTV</h5>
-                            <h3 class="mb-3">Access Control</h3>
-                            <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
-                            <a href="">Read More<i class="bi bi-arrow-right ms-2"></i></a>
+                            <img src="img/dioxido-de-carbono (1).png" height="100px" alt="">
+                            <h3 class="mb-3">Dióxido de carbono</h3>
+                            <p class="text-dark">Te protegemos del Dióxido de carbono en espacios con poca ventilación</p>
                         </div>
                     </div>
                 </div>
@@ -277,31 +273,14 @@
     <!-- Pricing Plan End -->
 
 
-    <!-- Offer Start -->
-    <div class="container-fluid bg-offer my-5 py-5 wow zoomIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row gx-5 justify-content-center">
-                <div class="col-lg-7 text-center">
-                    <div class="text-center mx-auto mb-4" style="max-width: 600px;">
-                        <h5 class="text-white text-uppercase" style="letter-spacing: 5px;">Special Offer</h5>
-                        <h1 class="display-5 text-white">Save 50% On All Items Your First Order</h1>
-                    </div>
-                    <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo lorem. Elitr ut dolores magna sit. Sea dolore sed et.</p>
-                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Order Now</a>
-                    <a href="" class="btn btn-secondary py-md-3 px-md-5">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Offer End -->
 
 
     <!-- Team Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-                <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Team Members</h5>
-                <h1 class="display-5 mb-0">Our Professional Team Members</h1>
+                <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">Miembros del equipo</h5>
+                <h1 class="display-5 mb-0">Nuestro equipo profesional</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
@@ -314,9 +293,9 @@
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
-                    <div class="bg-primary text-center rounded-bottom p-4">
-                        <h3 class="text-white">Full Name</h3>
-                        <p class="text-white m-0">Designation</p>
+                    <div class="bg-dark text-center rounded-bottom p-4">
+                        <h3 class="text-white">Jesus Manuel Velazquez Irigoyen</h3>
+                        <p class="text-white m-0">Desarrollador de Frontend</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
@@ -329,9 +308,9 @@
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
-                    <div class="bg-primary text-center rounded-bottom p-4">
-                        <h3 class="text-white">Full Name</h3>
-                        <p class="text-white m-0">Designation</p>
+                    <div class="bg-dark text-center rounded-bottom p-4">
+                        <h3 class="text-white">Angel Noe Hernandez Zavala</h3>
+                        <p class="text-white m-0">Desarrollador de backend</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
@@ -344,9 +323,9 @@
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
-                    <div class="bg-primary text-center rounded-bottom p-4">
-                        <h3 class="text-white">Full Name</h3>
-                        <p class="text-white m-0">Designation</p>
+                    <div class="bg-dark text-center rounded-bottom p-4">
+                        <h3 class="text-white">Alan Rodrigo Portillo Tapia</h3>
+                        <p class="text-white m-0">Desarrollador de base de datos</p>
                     </div>
                 </div>
             </div>
@@ -356,7 +335,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <!-- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 600px;">
                 <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h5>
@@ -401,7 +380,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
 
@@ -458,74 +437,15 @@
     
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light mt-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container pt-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Quick Links</h3>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Popular Links</h3>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Get In Touch</h3>
-                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
-                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Follow Us</h3>
-                    <div class="d-flex">
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i class="fab fa-instagram fw-normal"></i></a>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <form class="mx-auto" style="max-width: 600px;">
-                        <div class="input-group">
-                            <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                            <button class="btn btn-primary px-4">Sign Up</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid bg-primary text-light py-4">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="#">Your Site Name</a>. All Rights Reserved.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Designed by <a class="text-white border-bottom" href="https://htmlcodex.com">HTML Codex</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php
+    include 'footer.php';
+    ?>
     <!-- Footer End -->
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-secondary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
+    <a href="#inicio" class="btn btn-lg btn-dark btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+    
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

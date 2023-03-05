@@ -9,14 +9,18 @@
   </head>
   <body class="login">
     
-    
+    <!-- Navbar Start -->
+    <?php
+    include 'navbar.php';
+    ?>
+    <!-- Navbar End -->
     <div class="container">
       <div class="wrapper">
         <div class="title"><span>Login</span></div>
         <form action="#">
           <div class="row">
             <div class="login-img">
-              <img src="img/user.png" alt="">
+              <img src="img/usuario.gif" alt="">
             </div>
             <input type="text" placeholder="Email o Usuario" required>
           </div>
