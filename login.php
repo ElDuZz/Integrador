@@ -20,7 +20,7 @@
         <form action="#">
           <div class="row">
             <div class="login-img">
-              <img src="img/usuario.gif" alt="">
+              <img src="img/user.png" alt="">
             </div>
             <input type="text" placeholder="Email o Usuario" required>
           </div>
@@ -37,7 +37,10 @@
           <div class="signup-link">¿No eres usuario? <a href="sign.php">Registrate</a></div>
         </form>
       </div>
+      
     </div>
 
+    
   </body>
+  
 </html>
