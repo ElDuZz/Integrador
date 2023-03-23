@@ -8,28 +8,21 @@
     --light: #ECE4FF;
     --dark: #120F2D;
 }
-/* PARTE DEL LOGIN */
 
-@media (max-width: 768px) {
-    ul li {
-      width: 100%;
-      padding: 15px;
-      text-align: center;
-    }
-  
-    .hide {
-      display: block;
-      text-align: center;
-    }
-  
-    nav ul {
-    display: none;
-    }
-    nav ul li:hover{
+/* Celular */
+
+@media screen and (max-width: 768px) {
+    .main{
         width: 100%;
-        background: #646E73;
     }
-  }
+    
+    aside{
+        width: 100%;
+    }
+}
+
+
+/* PARTE DEL LOGIN */
   
   .login *{
       margin: 0;
