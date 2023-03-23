@@ -1,36 +1,51 @@
 
-  <body class="login">
-    
     <!-- Navbar Start -->
     <?php
     include 'navbar.php';
     ?>
+
+
+  <body class="login">
+    
+
+
     <div class="container">
       <div class="wrapper">
         <div class="title"><span>Registrarse</span></div>
-        <form action="procesos/register.php">
+        <form action="procesos/register.php" method="post">
+        <div class="row">
+            <div class="login-img">
+              <img src="img/user.png" alt="">
+            </div>  
+            <input type="text" name="username" id="username" placeholder="Usuario" required="true">
+          </div>
           <div class="row">
             <div class="login-img">
               <img src="img/user.png" alt="">
             </div>
-            <input type="email" name="email" placeholder="Email" required="true">
+            <input type="email" name="email" id="email" placeholder="Email" required="true">
           </div>
           <div class="row">
             <div class="login-img">
               <img src="img/lock.png" alt="">
             </div>
-            <input type="password" name="password" placeholder="Contraseña" required="true">
+            <input type="password" name="password" id="password" placeholder="Contraseña" required="true">
             
           </div>
           <div class="row">
             <div class="login-img">
               <img src="img/lock.png" alt="">
             </div>
-            <input type="password" name="password-confirm" placeholder="Repite la contraseña" required ="true">
+            <input type="password" name="password-confirm" id="password-confirm" placeholder="Repite la contraseña" required ="true">
             
           </div>
+          <?php if (isset($_GET['error'])) { ?>
+                <div class="alert alert-danger text-center"  role="alert">
+                    <?=$_GET['error']?>
+                </div>
+            <?php }?>
           <!-- <div class="pass"><a href="#">Olvidaste la contraseña?</a></div> -->
-          <div class="row button">
+          <div class="row button" style="margin-top: 10px;">
             <input type="submit" value="Registrarse">
           </div>
           <div class="signup-link">¿Ya tienes una cuenta? <a href="login.php">Ingresar</a></div>
@@ -38,5 +53,6 @@
       </div>
     </div>
 
+    
   </body>
 </html>

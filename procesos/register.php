@@ -15,14 +15,16 @@ $password = test_input($_POST ['password']);
 $password2 = test_input($_POST ['password-confirm']);
 
 if(empty($username)){
-    header("Location: ../sign.php?error=UserName is Required");
+    header("Location: ../sign.php?error=Usuario requerido");
 }else if(empty($email)){
-    header("Location: ../sign.php?error=Email is Required");
+    header("Location: ../sign.php?error=Email requerido");
 }else if(empty($password)){
-    header("Location: ../sign.php?error=password is Required");
+    header("Location: ../sign.php?error=Contraseña requerida");
 }else if($password != $password2){
-    header("Location: ../prueba.php?error=Passwords do not match");
+    header("Location: ../sign.php?error=Las contraseñas no coinciden");
 }else{
+    echo "todo bien";
+    /*
     $user = new Users();
     $password = md5($password);
     $data = array(
@@ -39,6 +41,7 @@ if(empty($username)){
     }else{
         header("Location: ../sign.php?error=An error has ocurred");
     }
+    */
 }
 
 
