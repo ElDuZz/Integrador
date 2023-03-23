@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOTO | Sign in </title>
-    <link rel="stylesheet" href="css\style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   </head>
   <body class="login">
@@ -20,7 +19,7 @@
         <form action="#">
           <div class="row">
             <div class="login-img">
-              <img src="img/usuario.gif" alt="">
+              <img src="img/user.png" alt="">
             </div>
             <input type="text" placeholder="Email o Usuario" required>
           </div>
@@ -39,5 +38,6 @@
       </div>
     </div>
 
+    
   </body>
 </html>
