@@ -1,33 +1,33 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOTO | Sign in </title>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-  </head>
+
   <body class="login">
     
     <!-- Navbar Start -->
     <?php
     include 'navbar.php';
+
+    session_start();
+    if(!empty($_SESSION['user_id']))
+    header('Location: index.php');
     ?>
     <!-- Navbar End -->
+
+    
+
     <div class="container">
       <div class="wrapper">
         <div class="title"><span>Login</span></div>
-        <form action="#">
+        <form action="procesos/login.php" method="post">
           <div class="row">
             <div class="login-img">
               <img src="img/user.png" alt="">
             </div>
-            <input type="text" placeholder="Email o Usuario" required>
+            <input type="email" placeholder="Email" required="true" >
           </div>
           <div class="row">
             <div class="login-img">
               <img src="img/lock.png" alt="">
             </div>
-            <input type="password" placeholder="Contraseña" required>
+            <input type="password" name="password" placeholder="Contraseña" required="true">
           </div>
           <!-- <div class="pass"><a href="#">Olvidaste la contraseña?</a></div> -->
           <div class="row button">
