@@ -8,42 +8,16 @@
     --light: #ECE4FF;
     --dark: #120F2D;
 }
-/* PARTE DEL LOGIN */
 
+
+/* Celular */
+/* 
 @media (max-width: 768px) {
-    .login *{
-        
-        width: 100%;
-        justify-items: center;
-        background-color: #120F2D;
+} */
+/* FIn celular  */ 
 
-    }
-    .login .container{
-    
-        width: 100%;
-        padding: 0 20px auto;
-        margin: 50px auto;
-      }
 
-    ul li {
-      width: 100%;
-      padding: 15px;
-      text-align: center;
-    }
-  
-    .hide {
-      display: block;
-      text-align: center;
-    }
-  
-    nav ul {
-    display: none;
-    }
-    nav ul li:hover{
-        width: 100%;
-        background: #646E73;
-    }
-  }
+/* PARTE DEL LOGIN */
   
   .login *{
       margin: 0;
@@ -65,16 +39,12 @@
       margin: 50px auto;
     }
   .login .wrapper{
-      animation-name: slidein;
-      animation-duration: 3s;
       width: 100%;
       background: #fff;
       border-radius: 5px;
       box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
     }
   .login .wrapper .title{
-      animation-name: slidein;
-      animation-duration: 3s;
       height: 90px;
       background: var(--main-login-color);
       border-radius: 5px 5px 0 0;
@@ -86,35 +56,28 @@
       justify-content: center;
     }
   .wrapper form{
-      animation-name: slidein;
-      animation-duration: 3s;
       padding: 30px 25px 25px 25px;
     }
   .wrapper form .row{
-      animation-name: slidein;
-      animation-duration: 3s;
       height: 45px;
       margin-bottom: 15px;
       position: relative;
     }
   .wrapper form .row input{
-      animation-name: slidein;
-      animation-duration: 3s;
       height: 100%;
       width: 100%;
       outline: none;
       padding-left: 60px;
       border-radius: 5px;
-      border: 1px solid lightgrey;
+      border: 1px solid #1abc9c;
       font-size: 16px;
-      transition: all 0.3s ease;
     }
   .login form .row input:focus{
       border-color: var(--main-login-color);
       box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
     }
   .login form .row input::placeholder{
-      color: #999;
+      color: #4b4a4a;
     }
     .login-img{
       position: absolute;

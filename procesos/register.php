@@ -10,7 +10,7 @@ function test_input($data) {
 }
 
 $username = test_input($_POST ['username']);
-$email = test_input($_POST ['email']);
+$email = test_input($_POST ['mail']);
 $password = test_input($_POST ['password']);
 $password2 = test_input($_POST ['password-confirm']);
 
@@ -23,13 +23,12 @@ if(empty($username)){
 }else if($password != $password2){
     header("Location: ../sign.php?error=Las contraseñas no coinciden");
 }else{
-    echo "todo bien";
-    /*
+    
     $user = new Users();
     $password = md5($password);
     $data = array(
         "username" => $username,
-        "email" => $email,
+        "mail" => $email,
         "password" => $password,
     );
     $request= $user -> register($data);
@@ -41,7 +40,7 @@ if(empty($username)){
     }else{
         header("Location: ../sign.php?error=An error has ocurred");
     }
-    */
+    
 }
 
 

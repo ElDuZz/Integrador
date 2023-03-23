@@ -6,7 +6,7 @@
         public function comprobarUsuario($email,$password){
             try {
                 $query= array(
-                    'email'=> $email, 
+                    'mail'=> $email, 
                     'password'=> $password
                     );
                 $conexion = Conexion::conectar();
@@ -15,7 +15,7 @@
                 if(empty($respuesta)){
                     return 0;
                 }
-                $_SESSION['user_id'] = (string) $respuesta['user_id'];
+                $_SESSION['_id'] = (string) $respuesta['_id'];
                 $_SESSION['username'] = (string) $respuesta['username'];
                 return 1;
 
@@ -37,8 +37,8 @@
             try {
                 $conexion = Conexion::conectar();
                 $coleccion = $conexion -> users;
-                $email= $data['email'];
-                $query = $coleccion-> findOne(array('email'=> $email));
+                $email= $data['mail'];
+                $query = $coleccion-> findOne(array('mail'=> $email));
                 if(!empty($query)){
                     $respuesta = 0;
                     return $respuesta;
