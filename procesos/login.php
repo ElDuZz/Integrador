@@ -1,8 +1,10 @@
+
 <?php
 
 session_start();
 include '../clases/conexion.php';
 include '../clases/users.php';
+
 
 if (!isset($_SESSION['mail']) && !isset($_SESSION['_id'])) {
     $user = new Users();

@@ -1,6 +1,6 @@
-==========
-Stable API
-==========
+=============
+Versioned API
+=============
 
 .. default-domain:: mongodb
 
@@ -10,7 +10,7 @@ Stable API
    :depth: 1
    :class: singlecol
 
-Declaring an API Version
+Declaring an API version
 ------------------------
 
 To declare an API version, pass a ``serverApi`` driver option when creating your
@@ -43,9 +43,10 @@ Strict API
 ----------
 
 By default, declaring an API version guarantees behavior for commands that are
-part of the stable API, but does not forbid using commands that are not part
+part of the versioned API, but does not forbid using commands that are not part
 of the API version. To only allow commands and options that are part of the
-stable API, specify the ``strict`` option when creating the
+versioned API, specify the ``strict`` option when creating the
+specify the ``strict`` option when creating the
 :php:`MongoDB\\Driver\\ServerApi <class.mongodb-driver-serverapi>` instance:
 
 .. code-block:: php
@@ -82,7 +83,7 @@ testing to ensure a smooth transition to a future API version.
 
    At the time of this writing, no part of API version "1" has been deprecated.
 
-Usage with the Command Helper
+Usage with the command helper
 -----------------------------
 
 When using the :phpmethod:`MongoDB\\Database::command()` method to run arbitrary
