@@ -36,9 +36,9 @@ if(empty($username)){
         header("Location: ../sign.php?error=This email has already been registered");
     }
     if ($request -> getInsertedId() > '0') {
-        header("Location: ../sign.php?registered=Registired Log In");
+        header("Location: ../sign.php?registered=Registrado");
     }else{
-        header("Location: ../sign.php?error=An error has ocurred");
+        header("Location: ../sign.php?error=A ocurrido un error");
     }
     
 }

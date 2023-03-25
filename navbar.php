@@ -37,23 +37,27 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0">
-            
+            <a href="#" class="nav-item nav-link "><img src="img/estados-unidos-de-america.png" alt="" style="width:30px; height:30px;" ></a>
             <a href="index.php" class="nav-item nav-link">Inicio</a>
             <a href="about.php" class="nav-item nav-link">Nosotros</a>
             <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
             
-            <a href="dispositivos.php" class="nav-item nav-link ">Dispositivos</a>
             
-            <li class="nav-item dropdown">
+            
+            <?php if(isset($_SESSION)){?>
+                <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="img/usuario.png" alt="" style="width:30px; height:30px;" >
                     Usuario
                 </a>
+                <a href="dispositivos.php" class="nav-item nav-link ">Dispositivos</a>
+             <?php }else{ ?>
+           
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="procesos/logout.php">Salir</a></li>
                 </ul>
                 </li>
-            
+                <?php } ?>
             
             <a href="login.php" class="nav-item nav-link me-3">Iniciar Sesion</a>
         </div>

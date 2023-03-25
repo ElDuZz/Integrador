@@ -59,29 +59,56 @@
             </div>
             <div class="row g-5">
             <div class="col-lg-6 col-md-6 wow zoomIn" >
-                    <div class="bg-info border-bottom border-5 border-dark rounded">
+                    <div class="card bg-light border-bottom  border-dark border-5 text-center rounded">
                         <div class="position-relative p-5">
                             <h3 class="mb-3">Temperatura interior</h3>
                             <p class="text-dark">Aqui se muestra la termperatura del interior actualmente</p>
                                 <div class="input-group mb-3">
                                     <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text" id="basic-addon2">ºC</span>
+                                    <span class="input-group-text text-dark" id="basic-addon2">ºC</span>
                                 </div>
                         </div>
                     </div>
                 </div>
                
                 <div class="col-lg-6 col-md-6 wow zoomIn">
-                    <div class="bg-info border-bottom border-5 border-dark rounded">
+                    <div class="card bg-light border-bottom border-dark border-5 rounded text-center">
                                             <div class="position-relative p-5">
                                                 <h3 class="mb-3">Temperatura exterior</h3>
                                                 <p class="text-dark">Aqui se muestra la termperatura del exterior actualmente</p>
-                                                    <div class="input-group mb-3">
-                                                        <input type="text" class="form-control"  aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                                        <span class="input-group-text" id="basic-addon2">ºC</span>
+                                                    <div class="input-group mb-3 " style="border-background: #ffff">
+                                                        <input type="text" class="form-control "  aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                                        <span class="input-group-text text-dark " id="basic-addon2">ºC</span>
                                                     </div>
                                             </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5">
+                
+            <div class="col-lg-3 col-md-6 wow zoomIn">
+                    
+                    </div>
+            <div class="col-lg-6 col-md-6 wow zoomIn" >
+                    <div class="card bg-light border-bottom  border-dark border-5 text-center rounded">
+                        <div class="position-relative p-5">
+                            <h3 class="mb-3">Temperatura deseada</h3>
+                            <p class="text-dark">Ingresa la temperatura deseada</p>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text text-dark" id="basic-addon2">ºC</span>
+                                </div>
+                                <button type="button" class="btn btn-danger">Guardar</button>
+
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-lg-2 col-md-6 wow zoomIn">
                 </div>
             </div>
         </div>
