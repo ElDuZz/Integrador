@@ -58,7 +58,7 @@
                 <h1 class="display-5 mb-0">Control de las temperaturas</h1>
             </div>
             <div class="row g-5">
-            <div class="col-lg-4 col-md-6 wow zoomIn" >
+            <div class="col-lg-6 col-md-6 wow zoomIn" >
                     <div class="bg-info border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
                             <h3 class="mb-3">Temperatura interior</h3>
@@ -70,38 +70,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" >
+               
+                <div class="col-lg-6 col-md-6 wow zoomIn">
                     <div class="bg-info border-bottom border-5 border-dark rounded">
-                        <div class="position-relative p-5">
-                            <h3 class="mb-3">Temperatura exterior</h3>
-                            <p class="text-dark">Aqui se muestra la termperatura del exterior actualmente</p>
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control"  aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text" id="basic-addon2">ºC</span>
-                                </div>
-                        </div>
+                                            <div class="position-relative p-5">
+                                                <h3 class="mb-3">Temperatura exterior</h3>
+                                                <p class="text-dark">Aqui se muestra la termperatura del exterior actualmente</p>
+                                                    <div class="input-group mb-3">
+                                                        <input type="text" class="form-control"  aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                                        <span class="input-group-text" id="basic-addon2">ºC</span>
+                                                    </div>
+                                            </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn">
-                    <div class="bg-info border-bottom border-5 border-dark rounded">
-                        <div class="position-relative p-5">
-                            <h3 class="mb-3">Temperatura deseada</h3>
-                            <p class="text-dark">Aqui se ingresa la temperatura que tu como usuario deseas en tu espacio</p>
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control"  aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text" id="basic-addon2">ºC</span>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn">
-                    <div >
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" >
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-primary" type="button">Aplicar</button>
-                        </div>
                 </div>
             </div>
         </div>

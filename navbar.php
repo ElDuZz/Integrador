@@ -41,12 +41,21 @@
             <a href="index.php" class="nav-item nav-link">Inicio</a>
             <a href="about.php" class="nav-item nav-link">Nosotros</a>
             <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
+            
             <a href="dispositivos.php" class="nav-item nav-link ">Dispositivos</a>
-            <?php
-            // if($_SERVER[‘HTTP_HOST’] == http:login.php){?>
-                        <a href="login.php" class="nav-item nav-link me-3">Iniciar Sesion</a>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="img/usuario.png" alt="" style="width:30px; height:30px;" >
+                    Usuario
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="procesos/logout.php">Salir</a></li>
+                </ul>
+                </li>
             
             
+            <a href="login.php" class="nav-item nav-link me-3">Iniciar Sesion</a>
         </div>
     </div>
 </nav>
