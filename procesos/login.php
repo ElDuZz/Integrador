@@ -5,8 +5,7 @@ session_start();
 include '../clases/conexion.php';
 include '../clases/users.php';
 
-
-if (!isset($_SESSION['mail']) && !isset($_SESSION['_id'])) {
+if (!isset($_SESSION['username']) && !isset($_SESSION['_id'])) {
     $user = new Users();
 
     if (isset($_POST ['mail']) && isset($_POST ['password'])) {
@@ -32,7 +31,7 @@ if (!isset($_SESSION['mail']) && !isset($_SESSION['_id'])) {
                 $_SESSION['mail'] = $email;
                 header("Location: ../index.php");
             } else {
-                header("Location: ../login.php?error=Usuario no encontrado");
+                header("Location: ../login.php?error=Credenciales Incorrectas");
             }
         }
     } else {
@@ -41,4 +40,5 @@ if (!isset($_SESSION['mail']) && !isset($_SESSION['_id'])) {
 } else {
     header("Location: ../index.php");
 }
+
 ?>

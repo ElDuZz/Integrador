@@ -30,13 +30,18 @@ if(empty($username)){
         "username" => $username,
         "mail" => $email,
         "password" => $password,
+        "tempInt" => "",
+        "tempExt" => "",
+        "tempDeseada" => "",
+        "mono" => "",
     );
     $request= $user -> register($data);
     if($request == 0){
-        header("Location: ../sign.php?error=This email has already been registered");
+        header("Location: ../sign.php?error=Este email ya esta registrado");
     }
     if ($request -> getInsertedId() > '0') {
-        header("Location: ../sign.php?registered=Registrado");
+        sleep(2);
+        header("Location: ../login.php?registered=Registrado Exitosamente");
     }else{
         header("Location: ../sign.php?error=A ocurrido un error");
     }

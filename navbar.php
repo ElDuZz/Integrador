@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!-- Favicon -->
 <link href="img/favicon.ico" rel="icon">
 
@@ -44,22 +45,23 @@
             
             
             
-            <?php if(isset($_SESSION)){?>
+            <?php if(!isset($_SESSION['username']) && !isset($_SESSION['_id'])){?>
+                <a href="login.php" class="nav-item nav-link me-3">Iniciar Sesion</a>
+
+             <?php }else{ ?>
+                
+                <a href="dispositivos.php" class="nav-item nav-link ">Dispositivos</a>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="img/usuario.png" alt="" style="width:30px; height:30px;" >
-                    Usuario
+                    <?php echo $_SESSION['username']?>
                 </a>
-                <a href="dispositivos.php" class="nav-item nav-link ">Dispositivos</a>
-             <?php }else{ ?>
-           
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="procesos/logout.php">Salir</a></li>
                 </ul>
                 </li>
                 <?php } ?>
             
-            <a href="login.php" class="nav-item nav-link me-3">Iniciar Sesion</a>
         </div>
     </div>
 </nav>

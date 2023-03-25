@@ -29,6 +29,11 @@
                     <?=$_GET['error']?>
                 </div>
             <?php }?>
+            <?php if(isset($_GET['registered'])){?>
+                    <div class="alert text-center alert-primary" role="alert">
+                      <?=$_GET['registered']?>
+                    </div>
+            <?php } ?>
             <!-- <div class="pass"><a href="#">Olvidaste la contraseña?</a></div> -->
             <div class="row button" style="margin-top: 10px;">
               <input type="submit" value="Login">
