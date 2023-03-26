@@ -102,13 +102,15 @@
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
                     <div class="bg-dark text-center rounded-bottom p-4">
                         <h3 class="text-white">Jesus Manuel Velazquez Irigoyen</h3>
                         <p class="text-white m-0">Desarrollador de Frontend</p>
+                        <br>
+                        <p class="text-white m-0">Lorem ipsum dolorariatur dicta. Veritatis officiis, aliquid quod veniam eveniet odio corrupti ipsum dolor?
+                        Quas voluptate alias ducimus tempore ratione cumque id, eligendi molestiae! Praesentium amet quas harum, in pariatur repudiandae veniam ab inventore incidunt saepe aspernatur corporis quasi? Aperiam quos porro earum perspiciatis.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
@@ -117,13 +119,15 @@
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
                     <div class="bg-dark text-center rounded-bottom p-4">
                         <h3 class="text-white">Angel Noe Hernandez Zavala</h3>
                         <p class="text-white m-0">Desarrollador de backend</p>
+                        <br>
+                        <p class="text-white m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rerum magni id? Ipsam rerum, natus magnam provident nobis pariatur dicta. Veritatis officiis, aliquid quod veniam eveniet odio corrupti ipsum dolor?
+                        Quas voluptate alias ducimus tempore ratione cumque id, eligendi molestiae! Praesentium amet quas harum, in pariatur repudiandae veniam ab inventore incidunt saepe aspernatur corporis quasi? Aperiam quos porro earum perspiciatis.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
@@ -132,13 +136,15 @@
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
                     <div class="bg-dark text-center rounded-bottom p-4">
                         <h3 class="text-white">Alan Rodrigo Portillo Tapia</h3>
                         <p class="text-white m-0">Desarrollador de base de datos</p>
+                        <br>
+                        <p class="text-white m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rerum magni id? Ipsam rerum, natus magnam provident nobis pariatur dicta. Veritatis officiis, aliquid quod veniam eveniet odio corrupti ipsum dolor?
+                        Quas voluptate alias ducimus tempore ratione cumque id, eligendi molestiae! Praesentium amet quas harum, in pariatur repudiandae veniam ab inventore incidunt saepe aspernatur corporis quasi? Aperiam quos porro earum perspiciatis.</p>
                     </div>
                 </div>
             </div>
@@ -156,7 +162,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-secondary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-dark btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

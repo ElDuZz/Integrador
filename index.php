@@ -70,7 +70,6 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="mb-4">
-                        <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">Sobre nosotros</h5>
                         <h1 class="display-5 mb-0">Nosotros ofrecemos nuestro servicio y sistema</h1>
                     </div>
                     <!-- <h4 class="text-body fst-italic mb-4">Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore</h4> -->
@@ -100,19 +99,10 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-                <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">Servicios</h5>
-                <h1 class="display-5 mb-0">Nuestros excelentes servicios de control de temperaturas</h1>
+                <h5 class="text-warning text-uppercase" style="letter-spacing: 5px;">Servicios</h5>
+                <h1 class="display-5 mb-0">Nuestros excelentes servicios de control del hogar</h1>
             </div>
             <div class="row g-5">
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item bg-light border-bottom border-5 border-dark rounded">
-                        <div class="position-relative p-5">
-                            <img src="img/aire-fresco.png" height="100px" alt="">
-                            <h3 class="mb-3">Exterior</h3>
-                            <p class="text-dark">Control en aplicacion de la temperatura exterior</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
@@ -122,30 +112,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-                    <div class="service-item bg-light border-bottom border-5 border-dark rounded">
-                        <div class="position-relative p-5">
-                            <img src="img/air-conditioning.png" height="100px" alt="">
-                            <h3 class="mb-3">Ventiladores</h3>
-                            <p class="text-dark">Control total en el apagado y encendido de ventiladores para uso de refrigeraciòn</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
                             <img src="img/ventilacion (1).png" height="100px" alt="">
-                            <h3 class="mb-3">Ventilaciòn</h3>
-                            <p class="text-dark">Control en el uso de las ventilaciones que ayuden con corrientes de aire para la refrigeraciòn</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="service-item bg-light border-bottom border-5 border-dark rounded">
-                        <div class="position-relative p-5">
-                            <img src="img/calentador.png" height="100px" alt="">
-                            <h3 class="mb-3">Calefacción</h3>
-                            <p class="text-dark">Te cuidamos cuando utilizas tus calentadores </p>
+                            <h3 class="mb-3">Ventilación</h3>
+                            <p class="text-dark">Control automatico en ventilaciones que ayuden con la refrigeración</p>
                         </div>
                     </div>
                 </div>
@@ -153,7 +125,7 @@
                     <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
                             <img src="img/dioxido-de-carbono (1).png" height="100px" alt="">
-                            <h3 class="mb-3">Dióxido de carbono</h3>
+                            <h3 class="mb-3">Monóxido de carbono</h3>
                             <p class="text-dark">Te protegemos del Dióxido de carbono en espacios con poca ventilación</p>
                         </div>
                     </div>
@@ -177,7 +149,6 @@
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
@@ -192,7 +163,6 @@
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
@@ -207,7 +177,6 @@
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>

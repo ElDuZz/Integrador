@@ -45,8 +45,23 @@ $datos = $crud -> obtenerDocumento($id);
 $tempInt = $datos['tempInt'];
 $tempExt = $datos['tempExt'];
 $tempDeseada = $datos['tempDeseada'];
-$mono = $datos['mono'];
+if($tempInt == null){
 ?>
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col wow zoomIn">
+                    <div class="card bg-light border-bottom border-dark border-5 rounded text-center">
+                        <div class="position-relative p-5">
+                            <h2 class="mb-3">Sin Conexión</h3>
+                            <p class="text-dark">Asegurate que tu sistema este conectado a la misma red</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<?php }else{ ?>
 
     <!-- Hero Start -->
     <div class="container-fluid bg-primary p-5 hero-header mb-5">
@@ -146,3 +161,4 @@ $mono = $datos['mono'];
 </body>
 
 </html>
+<?php } ?>
