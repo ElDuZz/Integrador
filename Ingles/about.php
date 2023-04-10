@@ -57,7 +57,7 @@
             <div class="row gx-5">
                 <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.3s" src="img/casa_ventilacion.png"  style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.3s" src="../img/casa_ventilacion.png"  style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -98,7 +98,7 @@
             <div class="row g-5">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="position-relative rounded-top">
-                        <img class="img-fluid rounded-top w-100" src="img/Duzz.jpeg" alt="">
+                        <img class="img-fluid rounded-top w-100" src="../img/Duzz.jpeg" alt="">
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -113,7 +113,7 @@
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="position-relative rounded-top">
-                        <img class="img-fluid rounded-top w-100" src="img/Noe.jpeg" alt="">
+                        <img class="img-fluid rounded-top w-100" src="../img/Noe.jpeg" alt="">
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="position-relative rounded-top">
-                        <img class="img-fluid rounded-top w-100" src="img/alana.jpeg" alt="">
+                        <img class="img-fluid rounded-top w-100" src="../img/alana.jpeg" alt="">
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
