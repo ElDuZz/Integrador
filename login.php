@@ -1,4 +1,4 @@
-
+<title>Iniciar Sesion</title>
   
     <!-- Navbar Start -->
     <?php
@@ -31,7 +31,7 @@
             <?php }?>
             <!-- <div class="pass"><a href="#">Olvidaste la contraseña?</a></div> -->
             <div class="row button" style="margin-top: 10px;">
-              <input type="submit" value="Login">
+              <input type="submit" value="Ingresar">
             </div>
             <div class="signup-link text-dark">¿No eres usuario? <a href="sign.php">Registrate</a></div>
           </form>

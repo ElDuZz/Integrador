@@ -1,4 +1,4 @@
-
+<title>Registarse</title>
     <!-- Navbar Start -->
     <?php
     include 'navbar.php';

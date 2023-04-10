@@ -59,6 +59,7 @@
     <!-- Carousel End -->
 
 
+
     <!-- About Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
@@ -71,15 +72,15 @@
                 <div class="col-lg-7">
                     <div class="mb-4">
                         <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">About us</h5>
-                        <h1 class="display-5 mb-0">Nosotros ofrecemos nuestro servicio y sistema</h1>
+                        <h1 class="display-5 mb-0">We offer our service and system</h1>
                     </div>
                     <!-- <h4 class="text-body fst-italic mb-4">Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore</h4> -->
-                    <p class="mb-4 text-dark">Lo que buscamos ofrecer es un servicio de ventilacion que te pueda ayudar en las las diferentes temporadas del año</p>
+                    <p class="mb-4 text-dark">What we seek to offer is a ventilation service that can help you in the different seasons of the year.</p>
                     <div class="row">
                         <div class="col wow zoomIn" data-wow-delay="0.6s">
                             <div class="bg-dark d-flex flex-column justify-content-center text-center border-bottom border-5 border-success rounded p-3" style="height: 200px;">
                                 <i class="fa fa-star fa-4x text-white mb-4"></i>
-                                <h4 class="text-white mb-0">Calidad garantizada</h4>
+                                <h4 class="text-white mb-0">Guaranteed quality</h4>
                             </div>
                         </div>
                         <!-- <div class="col-sm-6 wow zoomIn" data-wow-delay="0.9s">
@@ -96,20 +97,22 @@
     <!-- About End -->
     
 
+    
+
     <!-- Services Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-                <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">Servicios</h5>
-                <h1 class="display-5 mb-0">Nuestros excelentes servicios de control de temperaturas</h1>
+                <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">Services</h5>
+                <h1 class="display-5 mb-0">Our excellent temperature control services</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
                             <img src="../img/aire-fresco.png" height="100px" alt="">
-                            <h3 class="mb-3">Exterior</h3>
-                            <p class="text-dark">Control en aplicacion de la temperatura exterior</p>
+                            <h3 class="mb-3">Abroad</h3>
+                            <p class="text-dark">Control in application of the outside temperature</p>
                         </div>
                     </div>
                 </div>
@@ -117,8 +120,8 @@
                     <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
                             <img src="../img/wind.png" height="100px" alt="">
-                            <h3 class="mb-3">Interior</h3>
-                            <p class="text-dark">Control en aplicacion de la temperatura interior</p>
+                            <h3 class="mb-3">Inside</h3>
+                            <p class="text-dark">In-app control of indoor temperature</p>
                         </div>
                     </div>
                 </div>
@@ -126,8 +129,8 @@
                     <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
                             <img src="../img/air-conditioning.png" height="100px" alt="">
-                            <h3 class="mb-3">Ventiladores</h3>
-                            <p class="text-dark">Control total en el apagado y encendido de ventiladores para uso de refrigeraciòn</p>
+                            <h3 class="mb-3">Fans</h3>
+                            <p class="text-dark">Total control in turning off and on fans for cooling use</p>
                         </div>
                     </div>
                 </div>
@@ -135,8 +138,8 @@
                     <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
                             <img src="../img/ventilacion (1).png" height="100px" alt="">
-                            <h3 class="mb-3">Ventilaciòn</h3>
-                            <p class="text-dark">Control en el uso de las ventilaciones que ayuden con corrientes de aire para la refrigeraciòn</p>
+                            <h3 class="mb-3">Ventilation</h3>
+                            <p class="text-dark">Control in the use of ventilation that helps with air currents for cooling</p>
                         </div>
                     </div>
                 </div>
@@ -144,8 +147,8 @@
                     <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
                             <img src="../img/calentador.png" height="100px" alt="">
-                            <h3 class="mb-3">Calefacción</h3>
-                            <p class="text-dark">Te cuidamos cuando utilizas tus calentadores </p>
+                            <h3 class="mb-3">Heating</h3>
+                            <p class="text-dark">We take care of you when you use your heaters</p>
                         </div>
                     </div>
                 </div>
@@ -153,8 +156,8 @@
                     <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
                             <img src="../img/dioxido-de-carbono (1).png" height="100px" alt="">
-                            <h3 class="mb-3">Dióxido de carbono</h3>
-                            <p class="text-dark">Te protegemos del Dióxido de carbono en espacios con poca ventilación</p>
+                            <h3 class="mb-3">Carbon dioxide</h3>
+                            <p class="text-dark">We protect you from carbon dioxide in spaces with little ventilation</p>
                         </div>
                     </div>
                 </div>
@@ -164,11 +167,11 @@
     <!-- Services End -->
 
     <!-- Team Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+  <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-                <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">Miembros del equipo</h5>
-                <h1 class="display-5 mb-0">Nuestro equipo profesional</h1>
+                <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">Team members</h5>
+                <h1 class="display-5 mb-0">Our professional team</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
@@ -183,12 +186,12 @@
                     </div>
                     <div class="bg-dark text-center rounded-bottom p-4">
                         <h3 class="text-white">Jesus Manuel Velazquez Irigoyen</h3>
-                        <p class="text-white m-0">Desarrollador de Frontend</p>
+                        <p class="text-white m-0">Front End Developer</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="position-relative rounded-top">
-                        <img class="img-fluid rounded-top w-100" src="../img/Noe.jpeg" alt="">
+                        <img class="img-fluid rounded-top w-100" src="../img/Noe.jpg" alt="">
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -198,7 +201,7 @@
                     </div>
                     <div class="bg-dark text-center rounded-bottom p-4">
                         <h3 class="text-white">Angel Noe Hernandez Zavala</h3>
-                        <p class="text-white m-0">Desarrollador de backend</p>
+                        <p class="text-white m-0">Backend developer</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
@@ -213,7 +216,7 @@
                     </div>
                     <div class="bg-dark text-center rounded-bottom p-4">
                         <h3 class="text-white">Alan Rodrigo Portillo Tapia</h3>
-                        <p class="text-white m-0">Desarrollador de base de datos</p>
+                        <p class="text-white m-0">Database developer</p>
                     </div>
                 </div>
             </div>

@@ -10,11 +10,6 @@
 }
 
 
-/* Celular */
-/* 
-@media (max-width: 768px) {
-} */
-/* FIn celular  */ 
 
 
 /* PARTE DEL LOGIN */
@@ -257,6 +252,56 @@ h6,
 }
 
 @media (max-width: 991.98px) {
+    .login .container{
+    
+        max-width: 480px;
+        padding: 0 40px auto;
+        margin: 100px auto;
+      }
+      .wrapper form .row{
+        height: 60px;
+        margin-bottom: 40px;
+        position: relative;
+      }
+
+      .wrapper form .row img{
+        width: 40px;
+        height: 40px;
+      }
+      .wrapper form .pass{
+        margin: -8px 0 20px 0;
+        padding-top: 10px;
+      }
+      .wrapper form .pass a{
+        color: var(--main-login-color);
+        font-size: 17px;
+        text-decoration: none;
+      }
+      .wrapper form .pass a:hover{
+        text-decoration: underline;
+      }
+      .wrapper form .button input{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 0px;
+        background: var(--main-login-color);
+        border: 1px solid var(--main-login-color);
+        cursor: pointer;
+      }
+    .login form .button input:hover{
+        background: #12876f;
+      }
+      .wrapper form .signup-link{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 17px;
+      }
+    
+    .login form .signup-link a:hover{
+        text-decoration: underline;
+      }
+
     .navbar-light .navbar-nav .nav-link  {
         margin-left: 0;
         padding: 10px 0;
