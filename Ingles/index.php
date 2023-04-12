@@ -167,7 +167,7 @@
     <!-- Services End -->
 
     <!-- Team Start -->
-  <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 600px;">
                 <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">Team members</h5>
@@ -178,10 +178,9 @@
                     <div class="position-relative rounded-top">
                         <img class="img-fluid rounded-top w-100" src="../img/Duzz.jpeg" alt="">
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-outline-secondary btn-square m-1" href="https://www.facebook.com/jesusmanuel.velazquezirigoyen"><i class="fab fa-facebook-f fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                            <a class="btn btn-outline-secondary btn-square m-1" href="https://www.instagram.com/elduzzggame/"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
                     <div class="bg-dark text-center rounded-bottom p-4">
@@ -193,10 +192,9 @@
                     <div class="position-relative rounded-top">
                         <img class="img-fluid rounded-top w-100" src="../img/Noe.jpg" alt="">
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-outline-secondary btn-square m-1" href="https://www.facebook.com/angelnoe.zavala"><i class="fab fa-facebook-f fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                            <a class="btn btn-outline-secondary btn-square m-1" href="https://www.instagram.com/noe_hezpanol/"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
                     <div class="bg-dark text-center rounded-bottom p-4">
@@ -208,10 +206,9 @@
                     <div class="position-relative rounded-top">
                         <img class="img-fluid rounded-top w-100" src="../img/alana.jpeg" alt="">
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-outline-secondary btn-square m-1" href="https://www.facebook.com/profile.php?id=100005045460586"><i class="fab fa-facebook-f fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                            <a class="btn btn-outline-secondary btn-square m-1" href="https://www.instagram.com/alanporti/"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
                     <div class="bg-dark text-center rounded-bottom p-4">
