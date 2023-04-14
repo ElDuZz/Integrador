@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Nosotros</title>
+    <title>Abuout us</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -44,7 +44,7 @@
     <div class="container-fluid bg-primary p-5 hero-header mb-5">
         <div class="row py-5">
             <div class="col-12 text-center">
-                <h1 class="display-1 text-white animated zoomIn">Sobre nosotros</h1>
+                <h1 class="display-1 text-white animated zoomIn">About us</h1>
             </div>
         </div>
     </div>
@@ -57,21 +57,21 @@
             <div class="row gx-5">
                 <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.3s" src="img/casa_ventilacion.png"  style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.3s" src="../img/casa_ventilacion.png"  style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="mb-4">
-                        <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">Sobre nosotros</h5>
-                        <h1 class="display-5 mb-0">Nosotros ofrecemos nuestro servicio y sistema</h1>
+                        <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">About us</h5>
+                        <h1 class="display-5 mb-0">We offer our service and system</h1>
                     </div>
                     <!-- <h4 class="text-body fst-italic mb-4">Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore</h4> -->
-                    <p class="mb-4 text-dark">Lo que buscamos ofrecer es un servicio de ventilacion que te pueda ayudar en las las diferentes temporadas del año</p>
+                    <p class="mb-4 text-dark">What we seek to offer is a ventilation service that can help you in the different seasons of the year.</p>
                     <div class="row">
                         <div class="col wow zoomIn" data-wow-delay="0.6s">
                             <div class="bg-dark d-flex flex-column justify-content-center text-center border-bottom border-5 border-success rounded p-3" style="height: 200px;">
                                 <i class="fa fa-star fa-4x text-white mb-4"></i>
-                                <h4 class="text-white mb-0">Calidad garantizada</h4>
+                                <h4 class="text-white mb-0">Guaranteed quality</h4>
                             </div>
                         </div>
                         <!-- <div class="col-sm-6 wow zoomIn" data-wow-delay="0.9s">
@@ -92,56 +92,50 @@
   <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-                <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">Miembros del equipo</h5>
-                <h1 class="display-5 mb-0">Nuestro equipo profesional</h1>
+                <h5 class="text-success text-uppercase" style="letter-spacing: 5px;">Team members</h5>
+                <h1 class="display-5 mb-0">Our professional team</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="position-relative rounded-top">
-                        <img class="img-fluid rounded-top w-100" src="img/Duzz.jpeg" alt="">
+                        <img class="img-fluid rounded-top w-100" src="../img/Duzz.jpeg" alt="">
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="https://www.facebook.com/jesusmanuel.velazquezirigoyen"><i class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="https://www.instagram.com/elduzzggame/"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
                     <div class="bg-dark text-center rounded-bottom p-4">
                         <h3 class="text-white">Jesus Manuel Velazquez Irigoyen</h3>
-                        <p class="text-white m-0">Desarrollador de Frontend</p>
-                        <br>
-                        <p class="text-white m-0">Lorem ipsum dolorariatur dicta. Veritatis officiis, aliquid quod veniam eveniet odio corrupti ipsum dolor?
-                        Quas voluptate alias ducimus tempore ratione cumque id, eligendi molestiae! Praesentium amet quas harum, in pariatur repudiandae veniam ab inventore incidunt saepe aspernatur corporis quasi? Aperiam quos porro earum perspiciatis.</p>
+                        <p class="text-white m-0">Front End Developer</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="position-relative rounded-top">
-                        <img class="img-fluid rounded-top w-100" src="img/Noe.jpg" alt="">
+                        <img class="img-fluid rounded-top w-100" src="../img/Noe.jpg" alt="">
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="https://www.facebook.com/angelnoe.zavala"><i class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="https://www.instagram.com/noe_hezpanol/"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
                     <div class="bg-dark text-center rounded-bottom p-4">
                         <h3 class="text-white">Angel Noe Hernandez Zavala</h3>
-                        <p class="text-white m-0">Desarrollador de backend</p>
-                        <br>
-                        <p class="text-white m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rerum magni id? Ipsam rerum, natus magnam provident nobis pariatur dicta. Veritatis officiis, aliquid quod veniam eveniet odio corrupti ipsum dolor?
-                        Quas voluptate alias ducimus tempore ratione cumque id, eligendi molestiae! Praesentium amet quas harum, in pariatur repudiandae veniam ab inventore incidunt saepe aspernatur corporis quasi? Aperiam quos porro earum perspiciatis.</p>
+                        <p class="text-white m-0">Backend developer</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="position-relative rounded-top">
-                        <img class="img-fluid rounded-top w-100" src="img/alana.jpeg" alt="">
+                        <img class="img-fluid rounded-top w-100" src="../img/alana.jpeg" alt="">
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="https://www.facebook.com/profile.php?id=100005045460586"><i class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-outline-secondary btn-square m-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="https://www.instagram.com/alanporti/"><i class="fab fa-instagram fw-normal"></i></a>
                         </div>
                     </div>
                     <div class="bg-dark text-center rounded-bottom p-4">
                         <h3 class="text-white">Alan Rodrigo Portillo Tapia</h3>
-                        <p class="text-white m-0">Desarrollador de base de datos</p>
-                        <br>
-                        <p class="text-white m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rerum magni id? Ipsam rerum, natus magnam provident nobis pariatur dicta. Veritatis officiis, aliquid quod veniam eveniet odio corrupti ipsum dolor?
-                        Quas voluptate alias ducimus tempore ratione cumque id, eligendi molestiae! Praesentium amet quas harum, in pariatur repudiandae veniam ab inventore incidunt saepe aspernatur corporis quasi? Aperiam quos porro earum perspiciatis.</p>
+                        <p class="text-white m-0">Database developer</p>
                     </div>
                 </div>
             </div>
@@ -159,7 +153,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-dark btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-secondary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

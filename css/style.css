@@ -9,12 +9,13 @@
     --dark: #120F2D;
 }
 
-
 /* Celular */
-/* 
-@media (max-width: 768px) {
-} */
-/* FIn celular  */ 
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+  
+}
+  
+
+/* Fin celular */
 
 
 /* PARTE DEL LOGIN */
@@ -257,6 +258,101 @@ h6,
 }
 
 @media (max-width: 991.98px) {
+    .login .container{
+      
+      max-width: 600px;
+      padding: 0 100px auto;
+      margin: 100px auto;
+      margin-top: 150px;
+
+    }
+
+    .login .wrapper{
+      width: 100%;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+    }
+  .login .wrapper .title{
+      height: 90px;
+      background: var(--main-login-color);
+      border-radius: 5px 5px 0 0;
+      color: #fff;
+      font-size: 50px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  .wrapper form{
+      padding: 30px 25px 25px 25px;
+    }
+  .wrapper form .row{
+      height: 60px;
+      margin-bottom: 50px;
+      position: relative;
+    }
+  .wrapper form .row input{
+      height: 100%;
+      width: 100%;
+      outline: none;
+      padding-left: 70px;
+      border-radius: 5px;
+      border: 1px solid #1abc9c;
+      font-size: 30px;
+    }
+  .login form .row input:focus{
+      border-color: var(--main-login-color);
+      box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+    }
+  .login form .row input::placeholder{
+      color: #4b4a4a;
+    }
+    .login-img{
+      position: absolute;
+      background: var(--main-login-color);
+      width: 60px;
+      height: 100%;
+      border: 1px solid var(--main-login-color);
+      border-radius: 5px 0 0 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .wrapper form .row img{
+      width:100%;
+      height:100%;
+    }
+    .wrapper form .pass{
+      margin: -8px 0 20px 0;
+      padding-top: 10px;
+    }
+    .wrapper form .pass a{
+      color: var(--main-login-color);
+      font-size: 30px;
+      text-decoration: none;
+    }
+    .wrapper form .pass a:hover{
+      text-decoration: underline;
+    }
+    .wrapper form .button input{
+      color: #fff;
+      font-size: 30px;
+      font-weight: 500;
+      padding-left: 0px;
+      background: var(--main-login-color);
+      border: 1px solid var(--main-login-color);
+      cursor: pointer;
+    }
+  .login form .button input:hover{
+      background: #12876f;
+    }
+    .wrapper form .signup-link{
+      text-align: center;
+      margin-top: 20px;
+      font-size: 30px;
+    }
+    /* Aparte */
     .navbar-light .navbar-nav .nav-link  {
         margin-left: 0;
         padding: 10px 0;
@@ -273,6 +369,7 @@ h6,
 }
 
 @media (max-width: 576px) {
+  
     .carousel-caption h5 {
         font-size: 14px;
         font-weight: 500 !important;
