@@ -61,8 +61,6 @@
                 </ul>
                 </li>
                 <?php } ?>
-            
-            <a href="login.php" class="nav-item nav-link me-3">Iniciar sesion</a>
         </div>
     </div>
 </nav>
