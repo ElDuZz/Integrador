@@ -31,13 +31,11 @@ $app->post('/enviar-datos', function (Request $request, Response $response) {
     );
     //manda los datos a una funcion de la clase
     $response = $modify -> updateTemp($id, $datos);
-    //print_r($response);
     //si fue correcto el procedimiento y se inserto entra a las condiciones
     if ($response -> getModifiedCount() > 0 || $response -> getMatchedCount() > 0) {
         //crea objeto en clase curl para enviarlo al esp32
         $curl = new Curl();
         $send = $curl -> sendEspData($datos);
-        echo "gola";
         header("Location: ../../dispositivos.php");
         exit();
     } else {
