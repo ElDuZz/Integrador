@@ -1,3 +1,4 @@
+<? session_start();  ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +10,7 @@
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="../img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,37 +19,36 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="../lib/flaticon/font/flaticon.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 
 <body>
     
     <!-- Navbar Start -->
-    <?php
-    include 'navbar.php';
-    if(!isset($_SESSION['username']) && !isset($_SESSION['_id'])){
-        header('Location: index.php');
-    }
-    include '../clases\crud.php';
+<?php
+include 'navbar.php';
+if(!isset($_SESSION['username']) && !isset($_SESSION['_id'])){
+    header('Location: index.php');
+}
+include '../clases\crud.php';
 $id = $_SESSION['_id'];
 $crud = new Crud();
 $datos = $crud -> obtenerDocumento($id);
 $tempInt = $datos['tempInt'];
 $tempExt = $datos['tempExt'];
 $tempDeseada = $datos['tempDeseada'];
-    ?>
+?>
     <!-- Navbar End -->
-
 
     <!-- Hero Start -->
     <div class="container-fluid bg-primary p-5 hero-header mb-5">
@@ -59,6 +59,29 @@ $tempDeseada = $datos['tempDeseada'];
         </div>
     </div>
     <!-- Hero End -->
+    <?php
+
+include '../clases/device.php';
+$link = new Link();
+$response = $link -> Linkear();
+if(!$response){
+?>
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col wow zoomIn">
+                    <div class="card bg-light border-bottom border-dark border-5 rounded text-center">
+                        <div class="position-relative p-5">
+                            <h2 class="mb-3">No Connection</h3>
+                            <p class="text-dark">Please make sure that your system is in the same wifi as your site, refresh the site for retry connection.</p>
+                            <p class="text-dark">In no connection mode, the website will show the most recent temperatures and you will not be able to select the desired temperature.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<?php } ?>
 
     <!-- Temperatures Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -114,7 +137,13 @@ $tempDeseada = $datos['tempDeseada'];
                                     <input type="number" class="form-control text-center" id="tempDeseada" name="tempDeseada" placeholder="<?php echo $tempDeseada?>" min="15" max="30">
                                     <span class="input-group-text text-dark" id="basic-addon2" >ºC</span>
                                 </div>
+
+                                <?php if(!$response){  ?>
+                                <button type="submit" class="btn btn-danger" disabled>Save</button>
+                                <?php }else{ ?>
                                 <button type="submit" class="btn btn-danger">Save</button>
+                                <?php } ?>
+
                             </form>
                         </div>
                     </div>
@@ -127,19 +156,12 @@ $tempDeseada = $datos['tempDeseada'];
     </div>
     <!-- Temperatures End -->
     
-    
-
-
-    
 
     <!-- Footer Start -->
     <?php
     include 'footer.php';
     ?>
     <!-- Footer End -->
-
-
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
