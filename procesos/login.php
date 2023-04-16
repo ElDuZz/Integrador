@@ -18,6 +18,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['_id'])) {
 
         $email = test_input($_POST ['mail']);
         $password = test_input($_POST ['password']);
+        $language = $_POST['language'];
 
 
         if (empty($email)) {
@@ -29,13 +30,21 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['_id'])) {
             $respuesta = $user-> comprobarUsuario($email, $password);
             if ($respuesta) {
                 $_SESSION['mail'] = $email;
-                header("Location: ../index.php");
+                switch ($language) {
+                    case 'es':
+                        header("Location: ../Espanol/index.php");
+                        break;
+                    case 'en':
+                        header("Location: ../Ingles/index.php");   
+                        break;
+                }
             } else {
-                header("Location: ../login.php?error=Credenciales Incorrectas");
+                header('Location: '. $_SERVER['HTTP_REFERER'] . '?error=Credenciales Incorrectas');
             }
         }
     } else {
-        header("Location: ../login.php");
+        header('Location: ' . $_SERVER['HTTP_REFERER']);
+        exit;
     }
 } else {
     header("Location: ../index.php");

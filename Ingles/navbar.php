@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!-- Favicon -->
 <link href="../img/favicon.ico" rel="icon">
 
@@ -8,7 +9,7 @@
 <!-- Icon Font Stylesheet -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-<link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+<link href="../lib/flaticon/font/flaticon.css" rel="stylesheet">
 
 <!-- Libraries Stylesheet -->
 <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -37,29 +38,30 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0">
-            <a href="../index.php" class="nav-item nav-link "><img src="../img/mexico.png" alt="" style="width:30px; height:30px;" ></a>
+            <a href="../Espanol/index.php" class="nav-item nav-link "><img src="../img/mexico.png" alt="" style="width:30px; height:30px;" ></a>
             <a href="index.php" class="nav-item nav-link">Home</a>
             <a href="about.php" class="nav-item nav-link">About us</a>
             <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
+     
+    
             
-            
-            
-            <?php if(isset($_SESSION)){?>
+
+            <?php if(!isset($_SESSION['username']) && !isset($_SESSION['_id'])){?>
+                <a href="login.php" class="nav-item nav-link me-3">Log in</a>
+
+             <?php }else{ ?>
+                
+                <a href="dispositivos.php" class="nav-item nav-link ">Devices</a>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="../img/usuario.png" alt="" style="width:30px; height:30px;" >
-                    Usuario
+                    <?php echo $_SESSION['username']?>
                 </a>
-                <a href="dispositivos.php" class="nav-item nav-link ">Devices</a>
-             <?php }else{ ?>
-           
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="procesos/logout.php">Log out</a></li>
+                    <li><a class="dropdown-item" href="../procesos/logout.php">Log out</a></li>
                 </ul>
                 </li>
                 <?php } ?>
-            
-            <a href="login.php" class="nav-item nav-link me-3">Log in</a>
         </div>
     </div>
 </nav>

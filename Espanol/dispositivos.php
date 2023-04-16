@@ -1,4 +1,5 @@
 
+<? session_start();  ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,8 +38,10 @@
     <!-- Navbar Start -->
 <?php
     include 'navbar.php';
-
-include 'clases\crud.php';
+if(!isset($_SESSION['username']) && !isset($_SESSION['_id'])){
+    header('Location: index.php');
+}
+include '../clases\crud.php';
 $id = $_SESSION['_id'];
 $crud = new Crud();
 $datos = $crud -> obtenerDocumento($id);
@@ -100,8 +103,7 @@ if($tempInt == null){
                             <h3 class="mb-3">Temperatura exterior</h3>
                             <p class="text-dark">Aqui se muestra la termperatura del exterior actual</p>
                                 <div class="input-group mb-3 " style="border-background: #ffff">
-                                    <input type="text" class="form-control text-center" placeholder="<?php echo $tempExt?>" disabled>
-                                    
+                                    <input type="text" class="form-control text-center" placeholder="<?php echo $tempExt?>" disabled>                                    
                                     <span class="input-group-text text-dark " id="basic-addon2">ºC</span>
                                 </div>
                         </div>
@@ -125,11 +127,10 @@ if($tempInt == null){
                                 <div class="input-group mb-3">
                                     <input type="text" hidden value="<?php echo $id ?>" name="id">
                                     <input type="number" class="form-control text-center" id="tempDeseada" name="tempDeseada" placeholder="<?php echo $tempDeseada?>" min="15" max="30">
-                                    <span class="input-group-text text-dark" id="basic-addon2" >ºC</span>
+                                    <span class="input-group-text text-dark" id="basic-addon2">ºC</span>
                                 </div>
                                 <button type="submit" class="btn btn-danger">Guardar</button>
-                            </form>
-                                
+                            </form>                                
                         </div>
                     </div>
                 </div>

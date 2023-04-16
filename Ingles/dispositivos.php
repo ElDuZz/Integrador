@@ -36,6 +36,16 @@
     <!-- Navbar Start -->
     <?php
     include 'navbar.php';
+    if(!isset($_SESSION['username']) && !isset($_SESSION['_id'])){
+        header('Location: index.php');
+    }
+    include '../clases\crud.php';
+$id = $_SESSION['_id'];
+$crud = new Crud();
+$datos = $crud -> obtenerDocumento($id);
+$tempInt = $datos['tempInt'];
+$tempExt = $datos['tempExt'];
+$tempDeseada = $datos['tempDeseada'];
     ?>
     <!-- Navbar End -->
 
@@ -64,7 +74,7 @@
                             <h3 class="mb-3">Indoor temperature</h3>
                             <p class="text-dark">The current indoor temperature is displayed here</p>
                                 <div class="input-group mb-3">
-                                    <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <input type="text" class="form-control text-center" placeholder="<?php echo $tempInt?>" disabled>
                                     <span class="input-group-text text-dark" id="basic-addon2">ºC</span>
                                 </div>
                         </div>
@@ -74,10 +84,10 @@
                 <div class="col-lg-6 col-md-6 wow zoomIn">
                     <div class="card bg-light border-bottom border-dark border-5 rounded text-center">
                                             <div class="position-relative p-5">
-                                                <h3 class="mb-3">Outside temperature</h3>
+                                                <h3 class="mb-3">Outdoor temperature</h3>
                                                 <p class="text-dark">Here is the current outside temperature</p>
                                                     <div class="input-group mb-3 " style="border-background: #ffff">
-                                                        <input type="text" class="form-control "  aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                                        <input type="text" class="form-control text-center" placeholder="<?php echo $tempExt?>" disabled>
                                                         <span class="input-group-text text-dark " id="basic-addon2">ºC</span>
                                                     </div>
                                             </div>
@@ -98,12 +108,14 @@
                         <div class="position-relative p-5">
                             <h3 class="mb-3">Desired temperature</h3>
                             <p class="text-dark">Enter the desired temperature</p>
+                            <form action="api/apis.php/enviar-datos" method="post">
                                 <div class="input-group mb-3">
-                                    <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    <span class="input-group-text text-dark" id="basic-addon2">ºC</span>
+                                    <input type="text" hidden value="<?php echo $id ?>" name="id">
+                                    <input type="number" class="form-control text-center" id="tempDeseada" name="tempDeseada" placeholder="<?php echo $tempDeseada?>" min="15" max="30">
+                                    <span class="input-group-text text-dark" id="basic-addon2" >ºC</span>
                                 </div>
-                                <button type="button" class="btn btn-danger">Save</button>
-
+                                <button type="submit" class="btn btn-danger">Save</button>
+                            </form>
                         </div>
                     </div>
                 </div>

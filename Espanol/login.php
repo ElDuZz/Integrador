@@ -11,16 +11,17 @@
       <div class="container">
         <div class="wrapper">
           <div class="title"><span>Ingresar</span></div>
-          <form action="procesos/login.php" method="post">
+          <form action="../procesos/login.php" method="post">
+            <input type="text" hidden value="es" name="language">
             <div class="row">
               <div class="login-img">
-                <img src="img/cuenta.png" alt="">
+                <img src="../img/cuenta.png" alt="">
               </div>
               <input type="email" name="mail" id="mail" placeholder="Email" required="true" >
             </div>
             <div class="row">
               <div class="login-img">
-                <img src="img/bloquear.png" alt="">
+                <img src="../img/bloquear.png" alt="">
               </div>
               <input type="password" name="password" id="password" placeholder="Contraseña" required="true">
             </div>

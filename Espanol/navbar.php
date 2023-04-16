@@ -1,6 +1,6 @@
 <?php session_start(); ?>
 <!-- Favicon -->
-<link href="img/favicon.ico" rel="icon">
+<link href="../img/favicon.ico" rel="icon">
 
 <!-- Google Web Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,21 +12,21 @@
 <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
 
 <!-- Libraries Stylesheet -->
-<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-<link href="lib/animate/animate.min.css" rel="stylesheet">
+<link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="../lib/animate/animate.min.css" rel="stylesheet">
 
 <!-- Customized Bootstrap Stylesheet -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Template Stylesheet -->
-<link href="css/style.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
 
 
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
     <a href="index.php" class="navbar-brand">
         
-       <img src="img/Noto.png" height="100xp" alt="">
+       <img src="../img/Noto.png" height="100xp" alt="">
     </a>
     <a href="index.php" class="navbar-brand">
         
@@ -38,7 +38,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0">
-            <a href="Ingles/index.php" class="nav-item nav-link "><img src="img/estados-unidos-de-america.png" alt="" style="width:30px; height:30px;" ></a>
+            <a href="../Ingles/index.php" class="nav-item nav-link "><img src="../img/estados-unidos-de-america.png" alt="" style="width:30px; height:30px;" ></a>
             <a href="index.php" class="nav-item nav-link">Inicio</a>
             <a href="about.php" class="nav-item nav-link">Nosotros</a>
             <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
@@ -53,11 +53,11 @@
                 <a href="dispositivos.php" class="nav-item nav-link ">Dispositivos</a>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="img/usuario.png" alt="" style="width:30px; height:30px;" >
+                <img src="../img/usuario.png" alt="" style="width:30px; height:30px;" >
                     <?php echo $_SESSION['username']?>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="procesos/logout.php">Salir</a></li>
+                    <li><a class="dropdown-item" href="../procesos/logout.php">Salir</a></li>
                 </ul>
                 </li>
                 <?php } ?>

@@ -11,7 +11,8 @@
       <div class="container">
         <div class="wrapper">
           <div class="title"><span>Login</span></div>
-          <form action="procesos/login.php" method="post">
+          <form action="../procesos/login.php" method="post">
+            <input type="text" hidden value="en" name="language">
             <div class="row">
               <div class="login-img">
                 <img src="../img/cuenta.png" alt="">
@@ -29,6 +30,11 @@
                     <?=$_GET['error']?>
                 </div>
             <?php }?>
+            <?php if(isset($_GET['registered'])){?>
+                    <div class="alert text-center alert-primary" role="alert">
+                      <?=$_GET['registered']?>
+                    </div>
+            <?php } ?>
             <!-- <div class="pass"><a href="#">Olvidaste la contraseña?</a></div> -->
             <div class="row button" style="margin-top: 10px;">
               <input type="submit" value="Login">

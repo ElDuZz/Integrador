@@ -43,7 +43,6 @@ $app->post('/enviar-datos', function (Request $request, Response $response) {
     }
     
 });
-
 $app->post('/obtener-datos', function (Request $request, Response $response) {
     include 'clases/conexion.php';
     include 'modify.php';

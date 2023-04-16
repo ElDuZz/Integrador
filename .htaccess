@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^$ Espanol/index.html [L]

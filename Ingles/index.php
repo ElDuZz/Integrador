@@ -107,30 +107,12 @@
                 <h1 class="display-5 mb-0">Our excellent temperature control services</h1>
             </div>
             <div class="row g-5">
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="service-item bg-light border-bottom border-5 border-dark rounded">
-                        <div class="position-relative p-5">
-                            <img src="../img/aire-fresco.png" height="100px" alt="">
-                            <h3 class="mb-3">Abroad</h3>
-                            <p class="text-dark">Control in application of the outside temperature</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div class="service-item bg-light border-bottom border-5 border-dark rounded">
                         <div class="position-relative p-5">
                             <img src="../img/wind.png" height="100px" alt="">
                             <h3 class="mb-3">Inside</h3>
-                            <p class="text-dark">In-app control of indoor temperature</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-                    <div class="service-item bg-light border-bottom border-5 border-dark rounded">
-                        <div class="position-relative p-5">
-                            <img src="../img/air-conditioning.png" height="100px" alt="">
-                            <h3 class="mb-3">Fans</h3>
-                            <p class="text-dark">Total control in turning off and on fans for cooling use</p>
+                            <p class="text-dark">Total inner temperature control with our app</p>
                         </div>
                     </div>
                 </div>
@@ -140,15 +122,6 @@
                             <img src="../img/ventilacion (1).png" height="100px" alt="">
                             <h3 class="mb-3">Ventilation</h3>
                             <p class="text-dark">Control in the use of ventilation that helps with air currents for cooling</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="service-item bg-light border-bottom border-5 border-dark rounded">
-                        <div class="position-relative p-5">
-                            <img src="../img/calentador.png" height="100px" alt="">
-                            <h3 class="mb-3">Heating</h3>
-                            <p class="text-dark">We take care of you when you use your heaters</p>
                         </div>
                     </div>
                 </div>
@@ -235,13 +208,13 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

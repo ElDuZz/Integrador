@@ -12,7 +12,8 @@
     <div class="container">
       <div class="wrapper">
         <div class="title"><span>Sign up</span></div>
-        <form action="procesos/register.php" method="post">
+        <form action="../procesos/register.php" method="post">
+          <input type="text" hidden value="en" name="language">
         <div class="row">
             <div class="login-img">
               <img src="../img/cuenta.png" alt="">

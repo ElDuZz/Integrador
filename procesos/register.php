@@ -13,15 +13,52 @@ $username = test_input($_POST ['username']);
 $email = test_input($_POST ['mail']);
 $password = test_input($_POST ['password']);
 $password2 = test_input($_POST ['password-confirm']);
+$language = $_POST['language'];
 
 if(empty($username)){
-    header("Location: ../sign.php?error=Usuario requerido");
+    switch ($language) {
+        case 'es':
+            header("Location: ../Espanol/sign.php?error=Usuario Requerido");
+            exit;
+            break;
+        case 'en':
+            header("Location: ../Ingles/sign.php?error=Usuario Requerido");
+            exit;   
+            break;
+    }
 }else if(empty($email)){
-    header("Location: ../sign.php?error=Email requerido");
+    switch ($language) {
+        case 'es':
+            header("Location: ../Espanol/sign.php?error=Correo Requerido");
+            exit;
+            break;
+        case 'en':
+            header("Location: ../Ingles/sign.php?error=Correo Requerido");
+            exit;   
+            break;
+    }
 }else if(empty($password)){
-    header("Location: ../sign.php?error=Contraseña requerida");
+    switch ($language) {
+        case 'es':
+            header("Location: ../Espanol/sign.php?error=Contraseña Requerida");
+            exit;
+            break;
+        case 'en':
+            header("Location: ../Ingles/sign.php?error=Contraseña Requerida");
+            exit;   
+            break;
+    }
 }else if($password != $password2){
-    header("Location: ../sign.php?error=Las contraseñas no coinciden");
+    switch ($language) {
+        case 'es':
+            header("Location: ../Espanol/sign.php?error=No coinciden las contraseñas");
+            exit;
+            break;
+        case 'en':
+            header("Location: ../Ingles/sign.php?error=No coinciden las contraseñas");
+            exit;   
+            break;
+    }
 }else{
     
     $user = new Users();
@@ -37,13 +74,32 @@ if(empty($username)){
     );
     $request= $user -> register($data);
     if($request == 0){
-        header("Location: ../sign.php?error=Este email ya esta registrado");
+        switch ($language) {
+            case 'es':
+                header("Location: ../Espanol/sign.php?error=Este email ya esta registrado");
+                exit;
+                break;
+            case 'en':
+                header("Location: ../Ingles/sign.php?error=Este email ya esta registrado");
+                exit;   
+                break;
+        }
     }
-    if ($request -> getInsertedId() > '0') {
+    if ($request -> getInsertedId() > 0) {
         sleep(2);
-        header("Location: ../login.php?registered=Registrado Exitosamente");
+        switch ($language) {
+            case 'es':
+                header("Location: ../Espanol/login.php?registered=Registrado Exitosamente");
+                exit;
+                break;
+            case 'en':
+                header("Location: ../Ingles/login.php?registered=Registrado Exitosamente");
+                exit;   
+                break;
+        }
     }else{
-        header("Location: ../sign.php?error=A ocurrido un error");
+        header('Location:'. $_SERVER['HTTP_REFERER'] . '?error=A ocurrido un error');
+        exit;
     }
     
 }

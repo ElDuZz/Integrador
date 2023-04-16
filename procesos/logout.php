@@ -7,4 +7,6 @@ include '../clases/users.php';
 
 $user = new Users();
 $data = $user -> logOut();
-header("Location: ../index.php");
+header('Location: ' . $_SERVER['HTTP_REFERER']);
+exit;
+

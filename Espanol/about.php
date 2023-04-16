@@ -57,7 +57,7 @@
             <div class="row gx-5">
                 <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.3s" src="img/casa_ventilacion.png"  style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.3s" src="../img/casa_ventilacion.png"  style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -98,7 +98,7 @@
             <div class="row g-5">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="position-relative rounded-top">
-                        <img class="img-fluid rounded-top w-100" src="img/Duzz.jpeg" alt="">
+                        <img class="img-fluid rounded-top w-100" src="../img/Duzz.jpeg" alt="">
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="https://www.facebook.com/jesusmanuel.velazquezirigoyen"><i class="fab fa-facebook-f fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="https://www.instagram.com/elduzzggame/"><i class="fab fa-instagram fw-normal"></i></a>
@@ -108,13 +108,11 @@
                         <h3 class="text-white">Jesus Manuel Velazquez Irigoyen</h3>
                         <p class="text-white m-0">Desarrollador de Frontend</p>
                         <br>
-                        <p class="text-white m-0">Lorem ipsum dolorariatur dicta. Veritatis officiis, aliquid quod veniam eveniet odio corrupti ipsum dolor?
-                        Quas voluptate alias ducimus tempore ratione cumque id, eligendi molestiae! Praesentium amet quas harum, in pariatur repudiandae veniam ab inventore incidunt saepe aspernatur corporis quasi? Aperiam quos porro earum perspiciatis.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="position-relative rounded-top">
-                        <img class="img-fluid rounded-top w-100" src="img/Noe.jpg" alt="">
+                        <img class="img-fluid rounded-top w-100" src="../img/Noe.jpg" alt="">
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="https://www.facebook.com/angelnoe.zavala"><i class="fab fa-facebook-f fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="https://www.instagram.com/noe_hezpanol/"><i class="fab fa-instagram fw-normal"></i></a>
@@ -124,13 +122,11 @@
                         <h3 class="text-white">Angel Noe Hernandez Zavala</h3>
                         <p class="text-white m-0">Desarrollador de backend</p>
                         <br>
-                        <p class="text-white m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rerum magni id? Ipsam rerum, natus magnam provident nobis pariatur dicta. Veritatis officiis, aliquid quod veniam eveniet odio corrupti ipsum dolor?
-                        Quas voluptate alias ducimus tempore ratione cumque id, eligendi molestiae! Praesentium amet quas harum, in pariatur repudiandae veniam ab inventore incidunt saepe aspernatur corporis quasi? Aperiam quos porro earum perspiciatis.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="position-relative rounded-top">
-                        <img class="img-fluid rounded-top w-100" src="img/alana.jpeg" alt="">
+                        <img class="img-fluid rounded-top w-100" src="../img/alana.jpeg" alt="">
                         <div class="position-absolute bottom-0 end-0 d-flex flex-column bg-white p-1" style="margin-right: -25px;">
                             <a class="btn btn-outline-secondary btn-square m-1" href="https://www.facebook.com/profile.php?id=100005045460586"><i class="fab fa-facebook-f fw-normal"></i></a>
                             <a class="btn btn-outline-secondary btn-square m-1" href="https://www.instagram.com/alanporti/"><i class="fab fa-instagram fw-normal"></i></a>
@@ -140,8 +136,6 @@
                         <h3 class="text-white">Alan Rodrigo Portillo Tapia</h3>
                         <p class="text-white m-0">Desarrollador de base de datos</p>
                         <br>
-                        <p class="text-white m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rerum magni id? Ipsam rerum, natus magnam provident nobis pariatur dicta. Veritatis officiis, aliquid quod veniam eveniet odio corrupti ipsum dolor?
-                        Quas voluptate alias ducimus tempore ratione cumque id, eligendi molestiae! Praesentium amet quas harum, in pariatur repudiandae veniam ab inventore incidunt saepe aspernatur corporis quasi? Aperiam quos porro earum perspiciatis.</p>
                     </div>
                 </div>
             </div>
